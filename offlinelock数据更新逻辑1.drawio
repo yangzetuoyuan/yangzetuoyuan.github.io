@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78" version="24.7.7">
   <diagram name="第 1 页" id="54BJwtoG-cp-33cE2wWl">
-    <mxGraphModel dx="2214" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3601" dy="1592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,6 +208,9 @@
         </mxCell>
         <mxCell id="Qx7GQze8lIG7kLsKz-tr-32" value="开始计时" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#474D66;spacingLeft=10;spacingRight=10;rounded=0;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="278" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7GQze8lIG7kLsKz-tr-34" value="&lt;h1&gt;Offlinelock数据更新逻辑&lt;/h1&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-82" y="30" width="287" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
