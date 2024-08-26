@@ -114,7 +114,7 @@
           <mxGeometry x="256" y="1510" width="296" height="56" as="geometry" />
         </mxCell>
         <mxCell id="Ixe8CfQsJjF_cKo8F8-q-32" value="上报锁机通知&lt;div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;notify_simlock_timer_status_changed&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;(info_ptr-&amp;gt;mode, OPLUS_SIMLOCK_TIMER_STATE_LOCKED, &lt;span style=&quot;color: #098658;&quot;&gt;0&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1176" width="470" height="76" as="geometry" />
+          <mxGeometry x="660" y="1176" width="470" height="76" as="geometry" />
         </mxCell>
         <mxCell id="Ixe8CfQsJjF_cKo8F8-q-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-36" target="Ixe8CfQsJjF_cKo8F8-q-38">
           <mxGeometry relative="1" as="geometry" />
@@ -134,9 +134,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-36" target="Ixe8CfQsJjF_cKo8F8-q-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Ixe8CfQsJjF_cKo8F8-q-36" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;定时器超时&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="296" y="1780" width="216" height="96" as="geometry" />
         </mxCell>
@@ -150,7 +147,7 @@
           <mxGeometry x="291" y="1640" width="226" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Ixe8CfQsJjF_cKo8F8-q-45" value="上报提醒通知or锁机通知&lt;div&gt;（同一个函数，提醒通知中剩余锁机时长为提醒时长，&lt;/div&gt;&lt;div&gt;锁机通知中剩余锁机时长为0）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="1793" width="320" height="70" as="geometry" />
+          <mxGeometry x="690" y="1793" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Ixe8CfQsJjF_cKo8F8-q-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-50" target="Ixe8CfQsJjF_cKo8F8-q-30">
           <mxGeometry relative="1" as="geometry" />
