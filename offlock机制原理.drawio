@@ -1,9 +1,125 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78" version="24.7.7">
   <diagram name="第 1 页" id="qGLRZSGBIb6sqEb73nAY">
-    <mxGraphModel>
+    <mxGraphModel dx="2561" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-1" target="Ixe8CfQsJjF_cKo8F8-q-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-1" value="开机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="70" width="266" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-2" target="Ixe8CfQsJjF_cKo8F8-q-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-2" value="从realme离线锁机数据NV中读取offlinelock配置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-4" target="Ixe8CfQsJjF_cKo8F8-q-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-4" target="Ixe8CfQsJjF_cKo8F8-q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-4" value="Operation==0&lt;div&gt;&amp;amp;&lt;div&gt;mode==1&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="324" y="310" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-6" target="Ixe8CfQsJjF_cKo8F8-q-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-6" value="从NV中读取保存的&lt;div&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;duration_time_counter&lt;/span&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;start_timestamp&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="306" y="450" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-8" target="Ixe8CfQsJjF_cKo8F8-q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-18" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ixe8CfQsJjF_cKo8F8-q-15">
+          <mxGeometry x="0.089" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-8" target="Ixe8CfQsJjF_cKo8F8-q-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-23" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ixe8CfQsJjF_cKo8F8-q-17">
+          <mxGeometry x="0.1514" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-8" value="&lt;div&gt;判断当前时间是否被前调&lt;/div&gt;current_raw_time&amp;gt;=(&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;start_timestamp+&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;duration_time_counter&lt;/span&gt;)" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="226" y="690" width="376" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-9" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="760" width="166" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-11" target="Ixe8CfQsJjF_cKo8F8-q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-11" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;启动和更新timer&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;oplus_simlock_timer_init&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="306" y="580" width="216" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-14" target="Ixe8CfQsJjF_cKo8F8-q-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-14" value="剩余锁机净时长expire计算公式为未来锁机时间-当前时间" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-16" target="Ixe8CfQsJjF_cKo8F8-q-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-16" value="计算expire_time-duration_time_counter的剩余锁机净时长expire" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-19" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="798" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-22" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-size: 11px;&quot;&gt;if&lt;/span&gt; (info_ptr-&amp;gt;mode == TIMER_MODE_OFFLINE) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(0, 0, 255); font-size: 11px;&quot;&gt;if&lt;/span&gt; (current_raw_time &amp;lt; (info_ptr-&amp;gt;start_timestamp + info_ptr-&amp;gt;duration_time_counter)) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(0, 128, 0); font-size: 11px;&quot;&gt;// timestamp is invalid, use counter to calculate the timer&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(0, 0, 255); font-size: 11px;&quot;&gt;if&lt;/span&gt; (info_ptr-&amp;gt;duration_time_counter &amp;gt; &lt;span style=&quot;color: rgb(9, 134, 88); font-size: 11px;&quot;&gt;0&lt;/span&gt;) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; expire = (&lt;span style=&quot;color: rgb(0, 0, 255); font-size: 11px;&quot;&gt;int32_t&lt;/span&gt;)(info_ptr-&amp;gt;expire_time - info_ptr-&amp;gt;duration_time_counter);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } &lt;span style=&quot;color: rgb(0, 0, 255); font-size: 11px;&quot;&gt;else&lt;/span&gt; {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; OLCK_MSG_ERR(&lt;span style=&quot;color: rgb(163, 21, 21); font-size: 11px;&quot;&gt;&quot;%s: unknown rule when timestamp is invalid&quot;&lt;/span&gt;, __FUNCTION__);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(0, 0, 255); font-size: 11px;&quot;&gt;return&lt;/span&gt;;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } &lt;span style=&quot;color: rgb(0, 0, 255); font-size: 11px;&quot;&gt;else&lt;/span&gt; {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; expire = (&lt;span style=&quot;color: rgb(0, 0, 255); font-size: 11px;&quot;&gt;int32_t&lt;/span&gt;)(info_ptr-&amp;gt;start_timestamp + info_ptr-&amp;gt;expire_time - current_raw_time);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; text-align: left; white-space: pre; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="798" width="660" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-24" target="Ixe8CfQsJjF_cKo8F8-q-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-35" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ixe8CfQsJjF_cKo8F8-q-31">
+          <mxGeometry x="-0.1579" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-24" target="Ixe8CfQsJjF_cKo8F8-q-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-34" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ixe8CfQsJjF_cKo8F8-q-33">
+          <mxGeometry x="0.2203" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-24" value="if(expire&amp;lt;0)" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="306" y="1169" width="196" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-30" target="Ixe8CfQsJjF_cKo8F8-q-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-30" value="启动一个时长为expire的timer&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;start_simlock_timer&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;(s_timer_index, (&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; color: rgb(0, 0, 255);&quot;&gt;uint32_t&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;)expire);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="256" y="1340" width="296" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-32" value="上报锁机通知&lt;div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;notify_simlock_timer_status_changed&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;(info_ptr-&amp;gt;mode, OPLUS_SIMLOCK_TIMER_STATE_LOCKED, &lt;span style=&quot;color: #098658;&quot;&gt;0&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1176" width="470" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-36" target="Ixe8CfQsJjF_cKo8F8-q-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ixe8CfQsJjF_cKo8F8-q-36" target="Ixe8CfQsJjF_cKo8F8-q-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-36" value="定时器超时" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="296" y="1460" width="216" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-38" value="定时器持续到modem关机" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="1620" width="166" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="Ixe8CfQsJjF_cKo8F8-q-41" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1488" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
