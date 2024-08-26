@@ -39,7 +39,7 @@
         <mxCell id="9z1HUDdmIe7pnTlIsTbF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9z1HUDdmIe7pnTlIsTbF-23" target="9z1HUDdmIe7pnTlIsTbF-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9z1HUDdmIe7pnTlIsTbF-23" value="更新realme锁卡数据NV" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="9z1HUDdmIe7pnTlIsTbF-23" value="返回解析结果&lt;div&gt;success or failed&lt;/div&gt;" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="258" y="521" width="160" height="72" as="geometry" />
         </mxCell>
         <mxCell id="9z1HUDdmIe7pnTlIsTbF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9z1HUDdmIe7pnTlIsTbF-24" target="9z1HUDdmIe7pnTlIsTbF-30" edge="1">
@@ -83,10 +83,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9z1HUDdmIe7pnTlIsTbF-26" value="重启累加定时器，时长为10s" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="258" y="1421" width="160" height="72" as="geometry" />
+          <mxGeometry x="258" y="1500" width="160" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="9z1HUDdmIe7pnTlIsTbF-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9z1HUDdmIe7pnTlIsTbF-28" target="9z1HUDdmIe7pnTlIsTbF-26" edge="1">
+        <mxCell id="Qx7GQze8lIG7kLsKz-tr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9z1HUDdmIe7pnTlIsTbF-28" target="Qx7GQze8lIG7kLsKz-tr-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7GQze8lIG7kLsKz-tr-7" value="Update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qx7GQze8lIG7kLsKz-tr-5">
+          <mxGeometry x="-0.4419" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9z1HUDdmIe7pnTlIsTbF-28" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;duration_time_counter&lt;/span&gt;= 0&lt;div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;start_timestamp=time()&lt;/div&gt;&lt;/div&gt;" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="228.5" y="1291" width="219" height="72" as="geometry" />
@@ -121,6 +126,11 @@
         <mxCell id="9z1HUDdmIe7pnTlIsTbF-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9z1HUDdmIe7pnTlIsTbF-33" target="9z1HUDdmIe7pnTlIsTbF-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Qx7GQze8lIG7kLsKz-tr-2" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9z1HUDdmIe7pnTlIsTbF-41">
+          <mxGeometry x="-0.296" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9z1HUDdmIe7pnTlIsTbF-33" value="activateTime和更新之前的activeTime是否不同" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;strokeWidth=2;rhombus;whiteSpace=wrap;html=1;strokeColor=#474D66;" parent="1" vertex="1">
           <mxGeometry x="253" y="1151" width="170" height="90" as="geometry" />
         </mxCell>
@@ -128,10 +138,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9z1HUDdmIe7pnTlIsTbF-34" value="&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;回复更新结果给AP&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;AT&amp;lt; +OLCK: 1,0,180,12&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="228.5" y="1541" width="219" height="72" as="geometry" />
+          <mxGeometry x="228.5" y="1609" width="219" height="72" as="geometry" />
         </mxCell>
         <mxCell id="9z1HUDdmIe7pnTlIsTbF-35" value="主动上报给AP&lt;div&gt;+OLCK:&amp;lt;mode&amp;gt;,&amp;lt;lock status&amp;gt;,&amp;lt;expire time&amp;gt;,&amp;lt;restriction&amp;gt;&lt;br&gt;&lt;/div&gt;" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="258" y="1681" width="160" height="72" as="geometry" />
+          <mxGeometry x="258" y="1740" width="160" height="72" as="geometry" />
         </mxCell>
         <mxCell id="9z1HUDdmIe7pnTlIsTbF-36" value="NV保存的数据：&lt;div&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;duration_time_counter&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;：已用时长&lt;/span&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;start_timestamp:收到离线锁机数据时间&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="527" y="1289" width="300" height="74" as="geometry" />
@@ -162,7 +172,7 @@
             <mxPoint x="677" y="1281" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9z1HUDdmIe7pnTlIsTbF-66" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Operation Code:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; color: rgb(47, 79, 79);&quot;&gt;OPLUS_SIMLOCK_OPERATION_LOCK_PRODUCTION&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; color: rgb(9, 134, 88);&quot;&gt;0x00&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;size=30;labelBorderColor=none;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="9z1HUDdmIe7pnTlIsTbF-66" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;携带Operation Code为0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; color: rgb(47, 79, 79);&quot;&gt;OPLUS_SIMLOCK_OPERATION_LOCK_PRODUCTION&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; color: rgb(9, 134, 88);&quot;&gt;0x00&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;size=30;labelBorderColor=none;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="390" y="601" width="418.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9z1HUDdmIe7pnTlIsTbF-69" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.024;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9z1HUDdmIe7pnTlIsTbF-24" target="9z1HUDdmIe7pnTlIsTbF-66" edge="1">
@@ -170,6 +180,12 @@
             <mxPoint x="507" y="791" as="sourcePoint" />
             <mxPoint x="389.5110000000004" y="662" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Qx7GQze8lIG7kLsKz-tr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qx7GQze8lIG7kLsKz-tr-4" target="9z1HUDdmIe7pnTlIsTbF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7GQze8lIG7kLsKz-tr-4" value="更新realme锁卡数据NV&lt;div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space: pre;&quot;&gt;oplus_simlock_timer_nv_update&lt;/div&gt;&lt;/div&gt;" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1400" width="266" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
