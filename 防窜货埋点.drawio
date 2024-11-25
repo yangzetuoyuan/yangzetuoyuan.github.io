@@ -49,6 +49,12 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fgAjEzkgSrdyZiMy2f9m-18" value="从database中收集防窜货数据，&lt;div&gt;发送广播&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="125" y="380" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fgAjEzkgSrdyZiMy2f9m-19" value="监听广播，&lt;div&gt;解析防窜货数据，&lt;/div&gt;&lt;div&gt;组装Json字符串,&lt;/div&gt;&lt;div&gt;发送给DCS&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
