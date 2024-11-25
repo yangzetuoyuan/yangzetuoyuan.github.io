@@ -10,19 +10,32 @@
         <mxCell id="fgAjEzkgSrdyZiMy2f9m-3" value="云服务器&lt;div&gt;南天门埋点数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="730" y="130" width="310" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="fgAjEzkgSrdyZiMy2f9m-7" value="APK" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="fgAjEzkgSrdyZiMy2f9m-7" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;" vertex="1" parent="1">
           <mxGeometry x="90" y="170" width="260" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="fgAjEzkgSrdyZiMy2f9m-8" value="Framework" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="90" y="320" width="260" height="120" as="geometry" />
+        <mxCell id="fgAjEzkgSrdyZiMy2f9m-8" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="90" y="340" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="fgAjEzkgSrdyZiMy2f9m-9" value="DCS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="420" y="160" width="160" height="120" as="geometry" />
+          <mxGeometry x="410" y="160" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="fgAjEzkgSrdyZiMy2f9m-10" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#82b366;fontColor=#393C56;fillColor=#d5e8d4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="fgAjEzkgSrdyZiMy2f9m-3">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="580" y="220" as="sourcePoint" />
             <mxPoint x="700" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fgAjEzkgSrdyZiMy2f9m-13" value="APK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fgAjEzkgSrdyZiMy2f9m-14" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Framework&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fgAjEzkgSrdyZiMy2f9m-15" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fgAjEzkgSrdyZiMy2f9m-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="463.73333333333323" y="360" as="sourcePoint" />
+            <mxPoint x="420" y="230" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
