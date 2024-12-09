@@ -28,6 +28,15 @@
             <mxPoint x="440" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="bElSY56-DvQRiNw679UR-6" value="锁卡加密数据&lt;div&gt;（预付费套餐参数，&lt;/div&gt;&lt;div&gt;临时解锁码）&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;base=30;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="10" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bElSY56-DvQRiNw679UR-7" value="临时解锁码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bElSY56-DvQRiNw679UR-8" value="透传" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215" y="320" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
